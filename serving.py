@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
     app.add_middleware(
         fastapi.middleware.cors.CORSMiddleware,
-        allow_origins=["*", f"http://localhost:{GlobalState.config.port}", "http://localhost:3000"],
+        allow_origins=["*", f"http://localhost:{GlobalState.config.port}", "http://localhost:80"],
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
