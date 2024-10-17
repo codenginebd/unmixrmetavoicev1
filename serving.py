@@ -148,4 +148,5 @@ if __name__ == "__main__":
         host="::",
         port=GlobalState.config.port,
         log_level="info",
+        workers=4
     )
