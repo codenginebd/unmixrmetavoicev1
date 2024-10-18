@@ -4,7 +4,8 @@ tqdm
 flake8
 black
 tiktoken==0.5.1
-audiocraft
+audiocraft==1.2.0 ; python_version >= "3.10" and python_version < "4.0" \
+    --hash=sha256:4fa8af9bce9c97b7cd3b28fca8cf2e86408802c73103709559cfe04d1a3ec127
 numpy
 ninja
 fastapi==0.110.0
