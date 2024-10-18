@@ -26,6 +26,11 @@ click = "^8.1.7"
 wandb = { version = "^0.16.4", optional = true }
 posthog = "^3.5.0"
 python-dotenv = "^1.0.1"
+azure-core = "==1.29.7"
+azure-identity = "==1.15.0"
+azure-storage-blob = "==12.19.0"
+azure-storage-queue = "==12.9.0"
+nltk = "^3.8.1"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^3.7.0"
